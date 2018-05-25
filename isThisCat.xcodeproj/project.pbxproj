@@ -12,6 +12,8 @@
 		537A707320B7F18E00831E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537A707120B7F18E00831E4B /* Main.storyboard */; };
 		537A707520B7F19000831E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537A707420B7F19000831E4B /* Assets.xcassets */; };
 		537A707820B7F19000831E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537A707620B7F19000831E4B /* LaunchScreen.storyboard */; };
+		537A708020B7F5AA00831E4B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A707F20B7F5AA00831E4B /* extensions.swift */; };
+		537A708220B7F6D800831E4B /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 537A708120B7F6D800831E4B /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		537A707420B7F19000831E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537A707720B7F19000831E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537A707920B7F19000831E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537A707F20B7F5AA00831E4B /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		537A708120B7F6D800831E4B /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				537A706D20B7F18E00831E4B /* AppDelegate.swift */,
 				537A706F20B7F18E00831E4B /* ViewController.swift */,
+				537A708120B7F6D800831E4B /* Inceptionv3.mlmodel */,
 				537A707120B7F18E00831E4B /* Main.storyboard */,
 				537A707420B7F19000831E4B /* Assets.xcassets */,
 				537A707620B7F19000831E4B /* LaunchScreen.storyboard */,
 				537A707920B7F19000831E4B /* Info.plist */,
+				537A707F20B7F5AA00831E4B /* extensions.swift */,
 			);
 			path = isThisCat;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				537A707020B7F18E00831E4B /* ViewController.swift in Sources */,
+				537A708220B7F6D800831E4B /* Inceptionv3.mlmodel in Sources */,
 				537A706E20B7F18E00831E4B /* AppDelegate.swift in Sources */,
+				537A708020B7F5AA00831E4B /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
